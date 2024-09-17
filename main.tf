@@ -51,7 +51,6 @@ module "blog_sg" {
 # Enable Dev ENV
 module "blog_vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "4.13.0"
   name = "blog_vpc"
   parameter = "dev"
 
